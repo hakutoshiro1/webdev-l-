@@ -26,3 +26,9 @@
 // console.log(typeof(x));
 // console.log(x);
 
+// Array.foreach -passes each element in given function.
+// Array.map -creates new array with values returned from given function.
+// Array.filter -creates new array with values that passes condition provided by function.
+// Array.reduce -reduces array to a single value.eg - total a array/concanate all string . requires function with two arguments total/concatanatedstring and next element to be passed by for each method.
+// array.sort(ascendingSort(x-y)/descendingSort(y-x)) - sorts in ascending or descending.
+// arrow function => remove keyword function and curly braces.
