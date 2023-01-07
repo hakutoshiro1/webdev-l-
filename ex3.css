@@ -1,0 +1,31 @@
+.text1
+{
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 4px;
+}
+.text2 
+{
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 4px;
+}
+.inp1
+{
+    height: 32px;
+    width: 352px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight:400 ;
+    line-height: 20px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
