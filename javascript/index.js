@@ -42,3 +42,25 @@
 // let des =(x,y) =>y-x;
 // arr=arr.sort(des);
 // arr.forEach(Element =>{ console.log(Element)});
+
+// class constructor object objects as argument
+
+// class Cars{
+//     constructor(model)
+//     {
+//         this.model=model;
+//     }
+// }
+// const car1=new Cars("lambo")
+// displayinfo = (a) =>
+// {
+//     console.log(a.model);
+//     console.log(a.model)
+// };
+// // displayinfo(car1);
+// changemodel= (a,dosomething,modell) =>
+// {
+//     a.model=modell;
+//     dosomething(a);
+// }
+// changemodel(car1,displayinfo,"bullet");
