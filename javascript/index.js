@@ -31,4 +31,14 @@
 // Array.filter -creates new array with values that passes condition provided by function.
 // Array.reduce -reduces array to a single value.eg - total a array/concanate all string . requires function with two arguments total/concatanatedstring and next element to be passed by for each method.
 // array.sort(ascendingSort(x-y)/descendingSort(y-x)) - sorts in ascending or descending.
-// arrow function => remove keyword function and curly braces.
+// arrow function => remove keyword function.
+
+// let username="hello bro";
+// let calfun= (username) => {console.log(username)};
+// let addstr=(username ,dosomething) =>{ dosomething(username)};
+// addstr(username,calfun);
+// calfun(username);
+// let arr=[1,2,3,4,5,6]
+// let des =(x,y) =>y-x;
+// arr=arr.sort(des);
+// arr.forEach(Element =>{ console.log(Element)});
