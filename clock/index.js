@@ -1,5 +1,5 @@
 // console.log("Hello")
-const la=document.getElementById("mylabel");
+const la=document.getElementById("mylabel"); 
 let update= ()=>
 {
     let date =new Date();
