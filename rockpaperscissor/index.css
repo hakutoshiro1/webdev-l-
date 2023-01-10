@@ -1,0 +1,43 @@
+#mydiv
+{
+    width: 1000px;
+    height: 300px;
+    background-color:#222222;
+}
+.mybtn
+{
+    width: 90px;
+    height: 25px;
+    border-radius: 0px;
+    border-color: black ;
+    border: 1px solid;
+    font-family: consolas,monospace;
+    cursor: pointer;
+}
+.mytext
+{
+    font-size: large;
+    text-align:center; 
+    display: none;
+}
+#choosetext
+{
+    color: #e9e9ed;
+    font-size: larger;
+}
+#myply
+{
+    color: #00ff93;
+}
+#mycomp
+{
+    color: red;
+}
+#myres
+{
+    color: #e9e9ed;
+}
+#mytitle
+{
+    color: #00ff93;
+}
