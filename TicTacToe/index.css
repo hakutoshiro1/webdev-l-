@@ -1,0 +1,105 @@
+#mytitle
+{
+    text-align: center;
+    font-family: consolas,monospace;
+    color: #e0e0e0;
+}
+#mydiv
+{
+    background-color: #222222;
+    height: 510px;
+    width: 500px;
+    margin-left: 710px;
+}
+#mygameplay
+{
+    /* background-color: #e0e0ee; */
+    /* border:5px white solid; */
+    height: 404px;
+    width: 407px;
+    margin-left: 45px;
+}
+.mydivs
+{
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+#my1
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #111111; */
+}
+#my2
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #222222; */
+}
+#my3
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #333333; */
+}
+#my4
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #444444; */
+}
+#my5
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #555555; */
+}
+#my6
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #666666; */
+}
+#my7
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #777777; */
+}
+#my8
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #888888; */
+}
+#my9
+{
+    border:#222222 1px solid;
+    background-color: white;
+    /* background-color: #999999; */
+}
+.myimg
+{
+    object-fit: contain;
+}
+/* #mycanvas
+{
+    position: absolute;
+    z-index: 3  ;
+    width: 404px;
+    height: 402px;
+    border: 1px solid red;
+} */
+#playagain
+{
+    width: 100px;
+    height: 30px;
+    margin-top:5px ;
+    border: 0px;
+    font-family: consolas,monospace;
+    /* color: black; */
+}
