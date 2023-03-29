@@ -7,7 +7,21 @@
 </head>
 <body>
     <!-- <canvas id="mycanvas" ></canvas> -->
-    <div id="mydiv">
+    <div id="startdiv">
+        <p id="gameheading"><h1>TIC-TAC-TOE</h1></p>
+        <div class="choosebox" id="spdiv">
+            <input type="radio" name="a" class="numOfPlayers" id="Singleplayer" > 
+            <label for="Singleplayer" id="splabel" class="nuofplayers">Single Player</label>
+        </div>
+        <br>
+        <div class="choosebox" id="mpdiv">
+            <input type="radio" name="a"  class="numOfPlayers" id="Multiplayer" >
+            <label for="Multiplayer" id="mplabel" class="nuofplayers">Multiplayer</label>
+        </div>
+        <br>
+        <button id="startgame"> Start Game</button>
+    </div>
+    <div id="mydiv" style="display: none;">
         <div id="mytitle"><h1>Tic-Tac-Toe</h1></div>
         <div id="mygameplay">
             <div class="mydivs" id="my1">
@@ -18,7 +32,7 @@
                 <img src="correct.png" id="myimg12" class="myimg" style="display: none;">
                 <img src="wrong.png" id="myimg22" class="myimg" style="display: none;">
             </div>
-            <div class="mydivs" id="my3">
+            <div class="mydivs" id="my3"> 
                 <img src="correct.png" id="myimg13" class="myimg" style="display: none;">
                 <img src="wrong.png" id="myimg23" class="myimg" style="display: none;">
             </div>

@@ -9,7 +9,7 @@
     background-color: #222222;
     height: 510px;
     width: 500px;
-    margin-left: 710px;
+    margin-left: 710px; 
 }
 #mygameplay
 {
@@ -18,7 +18,7 @@
     height: 404px;
     width: 407px;
     margin-left: 45px;
-}
+}  
 .mydivs
 {
     height: 130px;
@@ -102,4 +102,60 @@
     border: 0px;
     font-family: consolas,monospace;
     /* color: black; */
+}
+#startgame
+{
+    border-radius: 0px;
+    border: black 4px solid;
+    background-color: #222222;
+    color: white;
+    font-family: consolas,monospace;
+    font-size: large;
+    /* margin-left: 180px; */
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+#startdiv
+{
+    z-index: 2;
+    margin-left: 710px;
+    margin-top: 30px;
+    height: 510px;
+    width: 500px;
+    border: #222222 4px solid;
+    text-align: center;
+    
+}
+.numOfPlayers
+{
+    font-family: consolas,monospace;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 50px;
+    align-items: center;
+    border: #222222 4px solid;
+
+}
+.nuofplayers
+{
+    font-family: consolas,monospace;
+    font-size: xx-large;
+}
+.choosebox
+{
+    border: #222222 4px solid;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+#gameheading
+{
+    font-family: consolas ,monospace;
+    font-size:xx-large;
+    
 }

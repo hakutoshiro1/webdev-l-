@@ -64,3 +64,13 @@
 //     dosomething(a);
 // }
 // changemodel(car1,displayinfo,"bullet");
+
+
+a="abcdefghijklmnopqrstuvwxyz"
+c=""
+for(i=0;i<100;i+=1)
+{
+    b=Math.floor(Math.random()*26);
+    c+=a[b]; 
+}
+console.log(c);
